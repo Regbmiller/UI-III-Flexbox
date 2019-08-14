@@ -63,4 +63,83 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 80px;
+}
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 35px;
+}
+
+a:link {
+	color: grey;
+}
+
+header img.logo {
+	/* padding-left: 54px; */
+}
+
+header nav a{
+	margin: 0 20px;
+}
+
+.cta {
+	display: flex;
+    justify-content: space-around;
+}
+
+.cta-text{
+	font-size: 80px;
+	display: inline-block;
+}
+
+.cta img{
+	padding-left: 94px; 
+}
+
+.cta button{
+	background-color: white;
+	border: 1px solid black;
+	display: inline-block;
+	width: 190px;
+	text-align: center;
+    font-size: 18px;
+    padding: 5px 10px
+}
+
+.main-content{
+	display: flex;
+    flex-flow: column;
+}
+
+.main-content img {
+	width: 950px;
+    justify-content: center;
+    display: flex;
+}
+
+.top-content{
+	column-count: 2;
+	margin: 15px 0;
+	border-top: 2px solid grey;
+	padding-top: 20px;
+} 
+
+.bottom-content{
+	column-count: 3;
+	margin: 15px 0;
+	border-bottom: 2px solid grey;
+	padding-bottom: 20px;
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 25px;
+}
